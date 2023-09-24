@@ -11,21 +11,21 @@ function olaMundo() {
     console.log(p1+p2)
   }
   function somaNumeros(){
-    var n1 =  parseFloat(prompt("digite primeiro numero"))
-    var n2 =  parseFloat(prompt("digite segundo numero"))
+    let n1 =  parseFloat(prompt("digite primeiro numero"))
+    let n2 =  parseFloat(prompt("digite segundo numero"))
     console.log(n1+n2)
   }
   function subtrairNumeros(){
-    var n1 =  parseFloat(prompt("digite primeiro numero"))
-    var n2 =  parseFloat(prompt("digite segundo numero"))
+    let n1 =  parseFloat(prompt("digite primeiro numero"))
+    let n2 =  parseFloat(prompt("digite segundo numero"))
     console.log(n1-n2)
   }
   function criaObjeto() {
-    var nome = prompt("Digite seu nome:")
-    var idade = parseInt(prompt("Digite sua idade:"))
-    var timeFavorito = prompt("Digite seu time favorito:")
+    let nome = prompt("Digite seu nome:")
+    let idade = parseInt(prompt("Digite sua idade:"))
+    let timeFavorito = prompt("Digite seu time favorito:")
   
-    var usuario = {
+    let usuario = {
       nome: nome,
       idade: idade,
       timeFavorito: timeFavorito
